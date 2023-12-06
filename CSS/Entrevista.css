@@ -1,0 +1,147 @@
+.tit{
+font-size: 50px;
+margin: 1%;
+}
+.ts{
+border-radius: 50%;
+width: 50%;
+}
+
+.texto{
+font-size: 46px;
+color: #720411;
+margin: 1%;
+}
+#letra{
+font-size: 18px;
+width: 500px;
+}
+#cont{
+margin-top: -1%;
+}
+
+.pieimg{
+margin-top: 10px;
+font-size: 10px;
+width: 243px;
+margin-left: 155px;
+}
+
+.div1{
+margin-left: 2%;
+display: inline-block;
+width: 10%;
+}
+.div2{
+margin-left: 2%;
+width: 30%;
+text-align: justify;
+}
+
+
+.anita{
+border-radius: 100%;
+width: 80px;
+
+}
+
+.titulo {
+font-family: Nova Regular;
+font-size: 20px;
+margin-left: 25%;
+color: #720411;
+}
+
+.titulo1 {
+font-family: Nova Regular;
+font-size: 15px;
+margin-left: 25%;
+color: #254F6F;
+
+}
+
+.fecha {
+font-family: Nova Regular;
+font-size: 15px;
+margin-left: 25%;
+}
+.encabezado{
+display: flex;
+    align-items: center;
+    margin-bottom: -2%;
+    position: static;
+}
+.diagrama {
+    position: relative;
+
+    height: 200px;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  
+  .circle-a {
+    width: 90px;
+    height: 90px;
+
+    left: 75px;
+    background-image: url('../Multimedia/ana.jfif');
+  }
+  
+  .circle-b {
+    width: 90px;
+    height: 90px;
+    top: 50px;
+    left: 10px;
+    background-image: url('../Multimedia/Daniela.jpg');
+  }
+  
+  .circle-c {
+    width: 90px;
+    height: 90px;
+    top: 50px;
+    left: 140px;
+    background-image: url('../Multimedia/Josue.jpg');
+  }
+
+
+
+
+
+#bot{
+margin-left: 55px;
+margin-top: -24px;
+}
+
+
+
+
+.button {
+    display: inline-grid; /* Cambiado a display: inline-grid */
+    background-color: #254F6F;
+    color: white;
+    cursor: pointer;
+    margin: 3%;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    place-items: center; /* Se utiliza place-items para centrar contenido en grid */
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 350px) and(max-width: 700px) {
+  .banner img{
+    margin-left: 4%;
+  
+  }
+  }
+  
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .banner img{
+    margin-left: 30%;
+  }
+  }

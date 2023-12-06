@@ -1,0 +1,272 @@
+
+
+.oli{
+    border: 3px solid black;
+    height: 1000px;
+}
+
+.Espe{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-bottom: 10%;
+}
+.Espe img{
+    position: relative;
+}
+.cuadro{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 41%;
+    height: 20%;
+    background-color: white;
+    margin-top: 345px;
+
+    text-align: center;
+}
+
+.cuadro h1{
+    margin: 10px;
+}
+
+.cuadro1{
+    position: absolute;
+    margin-top: -50px;
+    width: 17%;
+    height: 15%;
+    background-color: white;
+    text-align: center;
+    margin-left: 16.5%;
+}
+
+h6{
+    display: inline-block;
+}
+.enca1{
+    color: black;
+}
+h5{
+    color: black;
+}
+
+.cat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+    text-align: center;
+}
+
+h3{
+    color: #720411;
+}
+.enca{
+    color: #254F6F;
+}
+#enca2{
+    color: #254F6F;
+}
+.cat1{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.catal{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+    text-align: center;
+}
+
+.cuadro2{
+    position: absolute;
+    margin-top: -50px;
+    width: 17%;
+    height: 11%;
+    background-color: white;
+    text-align: center;
+    margin-left: 16.5%;
+}
+
+.cuadro2 h3{
+    font-size: 15px;
+}
+.cuadro2 h5{
+    font-size: 12px;
+}
+.cuadro2 h6{
+    font-size: 10px;
+}
+
+
+
+.linea {
+    width: 40%;
+    border-top: 3px solid #333; /* Color de la línea */
+    margin: 10px 0;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+
+.texto-medio {
+    margin: 0 20px;
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    display: inline-block;
+    margin-bottom: 4%;
+}
+
+.cat5{
+    text-align: center;
+    margin-top: 6%;
+}
+.cuadro3{
+    position: absolute;
+    margin-top: -50px;
+    width: 17%;
+    height: 11%;
+    background-color: white;
+    text-align: center;
+    margin-left: 41.5%;
+}
+
+.criticas {
+    display: grid;
+    grid-template-areas:
+
+        "tit cuadro4"
+        "tit vacio"
+        "tit cuadro5";
+    grid-template-rows: 100px 1fr 100px; /* Alturas de las filas */
+    grid-template-columns: 500px 1fr; /* Ancho de las columnas */
+    height: 120vh; /* 100% de la altura de la ventana */
+    background-color: #161c38;
+}
+
+.cuadro4{
+    background-color: white;
+    width: 100%;
+    height: 300%;
+    grid-area: cuadro4;
+    margin-top: 6%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.cuadro4 h2{
+    color: black;
+}
+
+.cuadro5 h2{
+    color: black;
+}
+
+.cuadro4 img{
+    width: 90%;
+    margin-left: 2%;
+}
+.tit{
+    grid-area: tit;
+    color: white;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.textoo{
+    text-align: center;
+}
+.nom{
+    display: inline-block;
+    color: black;
+}
+.nombre{
+    display: inline-block;
+    color: #720411;
+}
+#subt{
+    margin-top: 10%;
+}
+.subt1{
+    color: black;
+}
+
+.vacio{
+    width: 100%;
+    height: 1px;
+    grid-area: vacio;
+}
+
+.cuadro5{
+    background-color: white;
+    width: 100%;
+    height: 300%;
+    grid-area: cuadro5;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: -30%;
+}
+.cuadro5 img{
+    width: 90%;
+    margin-left: 2%;
+}
+.texto-medio1 {
+    margin: 0 20px;
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+.linea1 {
+    width: 34.5%;
+    border-top: 3px solid #333; /* Color de la línea */
+    margin: 10px 0;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.fot{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.fot img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 15px;
+}
+.fot1{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.fot1 p{
+    background-color: #720411;
+    width: 25%;
+    border-radius: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
+
+#botonFijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+
+    border-radius: 5px;
+    cursor: pointer;
+  }
